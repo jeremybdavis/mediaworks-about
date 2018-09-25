@@ -1,0 +1,63 @@
+p {
+    color: #525658;
+    font-size: 22px;
+}
+
+.no-bs a {
+    color: #525658;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+}
+
+.no-bs a:hover {
+    color: #525658;
+    opacity: .7;
+}
+
+.hero h1 {
+    color: #001641;
+    font-size: 46px;
+    margin-bottom: 30px;
+}
+
+.hero p {
+    font-size: 26px;
+    margin-bottom: 0;
+    max-width: 768px;
+}
+
+.hero {
+    border-bottom: 1px solid #525658;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+}
+
+.headline {
+    color: #001641;
+    font-size: 28px;
+}
+
+.resources .item {
+    margin-bottom: 60px;
+}
+
+.resources .item a {
+    display: block;
+    font-size: 18px;
+}
+
+.resources .item .view-all {
+    color: #001641;
+    font-size: 16px;
+}
+
+@media (min-width: 992px) {
+    .resources .item:nth-of-type(odd) {
+        padding-right: 60px;
+    }
+
+    .resources .item:nth-of-type(even) {
+        padding-left: 60px;
+    }
+}
+
